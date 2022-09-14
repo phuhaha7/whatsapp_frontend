@@ -1,10 +1,7 @@
-import { useEffect, useState} from 'react';
-import Pusher from 'pusher-js';
 import './App.css';
 import Chat from './components/Chat';
 import Sidebar from './components/Sidebar';
 import Login from './Login';
-import axios from './axios';
 import {
   BrowserRouter as Router,
   Routes,
